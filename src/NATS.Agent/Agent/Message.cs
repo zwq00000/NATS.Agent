@@ -10,6 +10,7 @@ public record Message<T> {
     public Message() {
         Id = SequentialGuid.NewGuid();
         Time = DateTime.Now;
+        Source = string.Empty;
     }
 
     public Message(string source, T payload) : this() {
@@ -39,5 +40,5 @@ public record Message<T> {
     /// 消息体
     /// </summary>
     /// <value></value>
-    public T Payload { get; init; }
+    public T? Payload { get; init; }
 }

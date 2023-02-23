@@ -9,11 +9,17 @@ public class NatsOptions {
 
     public int PublishRetryCount { get; set; } = 5;
 
-
+    /// <summary>
+    /// login user name
+    /// </summary>
     public string Username { get; set; }
 
     public string Password { get; set; }
 
+    /// <summary>
+    /// Client Name
+    /// </summary>
+    /// <value></value>
     public string Client { get; set; }
 
     public string[] Exchanges { get; set; }
