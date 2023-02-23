@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A3A9A35-CB5D-4E05-BC68-AD4BD82BB70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATS.Agent", "src\NATS.Agent\NATS.Agent.csproj", "{B9DC3029-47C7-49A9-87BE-0A31B3AE591D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D1EDB813-825C-4D25-B0CC-B54632FF9983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATS.Agent.Tests", "test\NATS.Agent.Tests\NATS.Agent.Tests.csproj", "{B074DD99-43A4-4BB5-AF30-64EAC3BAC94A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9DC3029-47C7-49A9-87BE-0A31B3AE591D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DC3029-47C7-49A9-87BE-0A31B3AE591D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DC3029-47C7-49A9-87BE-0A31B3AE591D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DC3029-47C7-49A9-87BE-0A31B3AE591D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B074DD99-43A4-4BB5-AF30-64EAC3BAC94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B074DD99-43A4-4BB5-AF30-64EAC3BAC94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B074DD99-43A4-4BB5-AF30-64EAC3BAC94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B074DD99-43A4-4BB5-AF30-64EAC3BAC94A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9DC3029-47C7-49A9-87BE-0A31B3AE591D} = {0A3A9A35-CB5D-4E05-BC68-AD4BD82BB70A}
+		{B074DD99-43A4-4BB5-AF30-64EAC3BAC94A} = {D1EDB813-825C-4D25-B0CC-B54632FF9983}
+	EndGlobalSection
+EndGlobal
